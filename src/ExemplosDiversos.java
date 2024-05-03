@@ -7,12 +7,34 @@ public class ExemplosDiversos {
 //        System.out.println(numero++);
 //        System.out.println(numero);
 //
-//        int a = 6;
-//        int b = 6;
-//
-//        String resultado = a==b ? "Verdadeiro" : "Falso";
-//        System.out.println(resultado);
-//
+        int a = 6;
+        int b = 6;
+
+        String resultado = a==b ? "Verdadeiro" : "Falso";
+        System.out.println(resultado);
+        String resultado2 = a>b ? "a > b" : a<b ? "a < b" : "a = b";
+        System.out.println(resultado2);
+
+        System.out.println();
+
+        String tamanho = "M";
+        switch (tamanho){
+            case "P":{
+                System.out.println("Pequeno");
+                break;
+            }
+            case "M":{
+                System.out.println("Médio");
+                break;
+            }
+            case "G":{
+                System.out.println("Grande");
+                break;
+            }
+            default:
+                System.out.println("Indefinido");
+        }
+
 //        System.out.println(resultado == "Verdadeiro");
 //        System.out.println(resultado.equals("Verdadeiro"));
 
@@ -48,9 +70,9 @@ public class ExemplosDiversos {
         // comando sugerido no terminal do VSCode:
         // javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
 
-
-
-
+//        System.out.println("Oi, fui executado pelo Terminal!");
+//
+//        System.out.println("(Mesmo sendo uma nova versão!)");
 
 
     }
