@@ -21,7 +21,9 @@ public class ListaTarefas {
 
     public void removeTarefa(String descricao){
 
-        List<Tarefa> tarefasParaRemover = new ArrayList<>();
+        // o método .remove() age sobre objetos ou índices. Não sobre atributos do objeto.
+
+        List<Tarefa> tarefasParaRemover = new ArrayList<>(); // para remover todas as ocorrências de uma tarefa
 
         for (Tarefa t: listaTarefas){
             if(t.getDescricao().equals(descricao)){
