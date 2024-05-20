@@ -1,4 +1,4 @@
-package Colecoes;
+package Colecoes.Lists;
 
 public class Main_listaTarefas {
 

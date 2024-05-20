@@ -1,4 +1,4 @@
-package Colecoes;
+package Colecoes.Lists;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 
