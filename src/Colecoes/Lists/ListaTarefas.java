@@ -30,7 +30,6 @@ public class ListaTarefas {
                 tarefasParaRemover.add(t);
             }
         }
-
         listaTarefas.removeAll(tarefasParaRemover);
 
     }
@@ -42,15 +41,5 @@ public class ListaTarefas {
     public void obterDescricaoTarefas(){
         System.out.println(listaTarefas);
     }
-
-
-//    @Override
-//    public String toString(){
-//        String texto = "Tarefas: \n";
-//        for (Tarefa t: listaTarefas){
-//            texto += "- " + t.getDescricao() + "\n";
-//        }
-//        return texto;
-//    }
 
 }
