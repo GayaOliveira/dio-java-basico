@@ -11,6 +11,8 @@ public class AgendaContatos {   // não preciso de uma classe Contato neste caso
         this.agendaContatos = new HashMap<>();
     }
 
+    // não precisamos indicar aqui critérios de unicidade, pq num Map a chave é única
+
     public void adicionarContato(String nome, Integer telefone){
         agendaContatos.put(nome, telefone);   // serve tanto para adicionar quanto para atualizar (então, uma chave repetida vai sobrescrever uma pré-existente)
     }
