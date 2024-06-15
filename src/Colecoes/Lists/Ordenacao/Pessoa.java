@@ -19,6 +19,11 @@ public class Pessoa implements Comparable<Pessoa> {
         return Integer.compare(idade, p.getIdade());
     }
 
+//    @Override
+//    public int compareTo(Pessoa p) {
+//        return this.nome.compareTo(p.getNome());
+//    }
+
     public String getNome() {
         return nome;
     }
