@@ -29,7 +29,7 @@ public class AgendaEventos {
         LocalDate proximaData = null;
         Evento proximoEvento = null;
         Map<LocalDate, Evento> eventosTreeMap = new TreeMap<>(eventos);
-        for(Map.Entry<LocalDate, Evento> entry: eventosTreeMap.entrySet()){  // será criado um Set com os pares do TreeMap
+        for(Map.Entry<LocalDate, Evento> entry: eventosTreeMap.entrySet()){  // o método entrySet cria um Set com os pares contidos no TreeMap
             if(entry.getKey().isEqual(dataAtual) || entry.getKey().isAfter(dataAtual)){
                 proximaData = entry.getKey();
                 proximoEvento = entry.getValue();
